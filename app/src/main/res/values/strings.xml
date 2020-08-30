@@ -1,3 +1,44 @@
 <resources>
+    <!-- Main Activity -->
     <string name="app_name">Dominando o Android!</string>
+    <string-array name="intent_actions">
+        <item>Orientation</item>
+        <item>Activity Result</item>
+        <item>Testing TextView</item>
+        <item>Intents Activity</item>
+    </string-array>
+
+    <!-- Orientation Activity -->
+    <string name="label_name">Digite o nome</string>
+    <string name="btn_add">Adicionar</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Intents Activity -->
+    <string-array name="intents_action_activity">
+        <item>Browser</item>
+        <item>Realizando Chamada</item>
+        <item>Mapa</item>
+        <item>SMS</item>
+        <item>Share</item>
+        <item>Clock</item>
+        <item>Search on Web</item>
+        <item>Settings</item>
+        <item>Custom Action</item>
+        <item>Sair</item>
+    </string-array>
+    <string name="error_intent">Ação não suportada</string>
+    <string name="custom_action">Ação customizada - \nUri: %1$s \nHost: %3$s \nPath: %3$s</string>
+
 </resources>
