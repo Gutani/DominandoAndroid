@@ -29,7 +29,7 @@ class IntentsActivity : AppCompatActivity() {
     }
 
 
-    fun openIntentAtPosition(i:Int){
+    private fun openIntentAtPosition(i:Int){
         val uri:Uri
         val intent:Intent
         when(i){
@@ -81,7 +81,7 @@ class IntentsActivity : AppCompatActivity() {
         }
     }
 
-   fun callNumber(){
+   private fun callNumber(){
        val uri = Uri.parse( "tel:62981512995")
        val intent = Intent(Intent.ACTION_CALL, uri)
        startActivity(intent)

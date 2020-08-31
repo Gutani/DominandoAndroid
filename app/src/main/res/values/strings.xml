@@ -13,16 +13,32 @@
     <string name="btn_add">Adicionar</string>
 
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Activity Result -->
+    <string name="label_select_state">Select a state</string>
+    <string name="label_select_state_view">Select above</string>
+    <string name="title_activity_selection">States List</string>
+    <string-array name="states">
+        <item>Texas</item>
+        <item>Pennsylvania</item>
+        <item>California</item>
+        <item>Florida</item>
+        <item>Washington</item>
+        <item>New Jersey</item>
+        <item>Minnesota</item>
+        <item>Hawaii</item>
+        <item>Georgia</item>
+        <item>Colorado</item>
+        <item>New York</item>
+        <item>Oregon</item>
+        <item>Wisconsin</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Tennessee</item>
+        <item>Maine</item>
+        <item>Utah</item>
+        <item>Kansas</item>
+        <item>Oklahoma</item>
+    </string-array>
 
 
     <!-- Intents Activity -->
@@ -40,5 +56,7 @@
     </string-array>
     <string name="error_intent">Ação não suportada</string>
     <string name="custom_action">Ação customizada - \nUri: %1$s \nHost: %3$s \nPath: %3$s</string>
+    <string name="auto_link_text">\nPhone: 62154565451 \nWeb: https://www.google.com \nEmail: google@google.com</string>
+    <string name="text_big_text_ellipsize">The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles\'</string>
 
 </resources>
